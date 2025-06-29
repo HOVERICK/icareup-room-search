@@ -23,3 +23,10 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
+
+@media (max-width: 600px) {
+    #searchInput {
+        width: 90%;
+        font-size: 18px;
+    }
+}

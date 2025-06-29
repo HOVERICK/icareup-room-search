@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const matches = data.filter(entry => entry.이름 === name);
         if (matches.length === 0) {
-            resultBox.innerHTML = '<p>일치하는 이름이 없습니다.</p>';
+            resultBox.innerHTML = '<p>일치하는 성함이 없습니다.</p>';
         } else {
             matches.forEach(entry => {
                 resultBox.innerHTML += `
